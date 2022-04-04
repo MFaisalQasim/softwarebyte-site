@@ -1,0 +1,18 @@
+body{
+    background-color: black!important;
+}
+.card-img{
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.bg-webcolor{
+    background-color: black!important;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.carousel-item{
+    padding: 20px;
+}
+.carousel-row{
+    padding: 20px;
+}
