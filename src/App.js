@@ -151,6 +151,7 @@ function App() {
           </Container>
         </Carousel.Item>
       </Carousel>
+      
     </>
   );
 }
