@@ -16,3 +16,14 @@ body{
 .carousel-row{
     padding: 20px;
 }
+
+.Card-div {
+/* padding: auto; */
+margin-top: 20px;
+margin-top: 20px;
+}
+.CardCards{
+    margin: 20px;
+    background-color: black!important;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
