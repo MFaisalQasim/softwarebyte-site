@@ -18,7 +18,6 @@ body{
 }
 
 .Card-div {
-/* padding: auto; */
 margin-top: 20px;
 margin-top: 20px;
 }
@@ -26,4 +25,12 @@ margin-top: 20px;
     margin: 20px;
     background-color: black!important;
     box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.tab-content{
+    background-color: #888888;
+}
+.pcss3t-theme-1 > label{
+    background-color: #888888;
+
 }

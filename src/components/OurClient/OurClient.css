@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans:300,400,600,700');
+ /* html, body {
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 300;
+	 line-height: 24px;
+	 font-size: 16px;
+}
+ h2 {
+	 font-family: 'Anton', sans-serif;
+	 text-transform: uppercase;
+}
+ button {
+	 cursor: pointer;
+	 background: #ffca28;
+	 border: 0;
+	 padding: 7px 40px;
+	 color: #fff;
+	 font-family: 'Anton', sans-serif;
+	 text-transform: uppercase;
+	 font-size: 20px;
+	 margin-top: 20px;
+	 transition: all 0.5s ease-in-out;
+}
+ button:hover {
+	 background: #fff;
+	 color: #212121;
+} */
+ .cards {
+	 background: #212121;
+}
+ .cards:hover .card-single {
+	 opacity: 0.15;
+}
+ .cards .card-single {
+	 background: #212121;
+	 transition: opacity 0.5s ease-in-out;
+}
+ .cards .card-single:hover {
+	 opacity: 1;
+}
+ .card-content {
+	 height: 550px;
+	 padding: 40px;
+	 color: #fff;
+	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/stripe-pattern.png');
+}
+ .card-content h2 {
+	 color: #ffca28;
+	 margin-bottom: 20px;
+}
+ .card-text {
+	 max-width: 600px;
+}
+ .card-height {
+	 height: 100%;
+}
+ .card-img {
+	 padding: 0;
+}
+ .card-img .carousel-item {
+	 height: 550px;
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+}
+ .carousel-indicators li {
+	 height: 10px;
+	 width: 10px;
+	 border-radius: 50%;
+}
+ 
