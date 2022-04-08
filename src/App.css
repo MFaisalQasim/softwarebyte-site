@@ -1,5 +1,12 @@
 body{
-    background-color: black!important;
+    background-color: var(--one) !important;
+}
+*{
+    --one: #484444;
+    --two: #fd0003;
+    --three: #000000;
+    --four: #940404 ;
+    --fifth: white;
 }
 .card-img{
     padding: 20px;
@@ -7,8 +14,8 @@ body{
 }
 
 .bg-webcolor{
-    background-color: black!important;
-    box-shadow: 5px 5px 5px 5px #888888;
+    background-color: #717171 !important;
+    box-shadow: 5px 5px 5px 5px #2b2626;
 }
 .carousel-item{
     padding: 20px;
@@ -23,7 +30,7 @@ margin-top: 20px;
 }
 .CardCards{
     margin: 20px;
-    background-color: black!important;
+    background-color: #717171 !important;
     box-shadow: 5px 5px 5px 5px #888888;
 }
 

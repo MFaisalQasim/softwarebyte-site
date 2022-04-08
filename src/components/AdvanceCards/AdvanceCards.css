@@ -1,31 +1,24 @@
 /* @import url(https://fonts.googleapis.com/css?family=Gabriela);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans); */
 
-html, body, div, h1, h2, h3, p, pre {
+/* html, body, div, h1, h2, h3, p, pre {
 	margin: 0;
 	padding: 0;
 	color: #333;
-}
-html, body {
+} */
+/* html, body {
 	background: #bdcbe5;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 1.55;
-}
-h1 {
-	padding: 40px 0 20px;
-	font: 40px/60px Gabriela, Georgia, serif;
-	text-align: center;
-	text-shadow: 3px 3px rgba(0,0,0,0.1);
-	color: #fff;	
-}
+} */
 p {
 	margin-bottom: 40px;
-	text-align: center;
+	/* text-align: center; */
 }
 a {
 	text-decoration: underline;
-	color: #1889e6;
+	/* color: #1889e6; */
 }
 a:hover {
 	text-decoration: none;
@@ -280,7 +273,7 @@ a:hover {
 	margin: 20px 0 0 0;
 	padding: 0;
 	line-height: 20px;
-	text-align: left;
+	/* text-align: left; */
 }
 .pcss3t .typography ul,
 .pcss3t .typography ol {
@@ -760,18 +753,16 @@ a:hover {
 /**/
 .pcss3t > label {	
 	padding: 0 20px;
-	background: #e5e5e5;
+	background: #3f3838;
 	font-size: 13px;
 	line-height: 49px;
 }
 .pcss3t > label:hover {
-	background: #f2f2f2;
+	background: #272626;
 }
 .pcss3t > input:checked + label {
-	background: #fff;
 }
 .pcss3t > ul {
-	background: #fff;
 	text-align: left;
 }
 .pcss3t-steps > label:hover {
@@ -785,13 +776,11 @@ a:hover {
 .pcss3t-theme-1 > label {
 	margin: 0 5px 5px 0;
 	border-radius: 5px;
-	background: #fff;
-	box-shadow: 0 2px rgba(0,0,0,0.2);
-	color: #808080;
+	box-shadow: 0 2px rgba(100, 97, 97, 0.2);
+	color: #940404;
 	opacity: 0.8;
 }
 .pcss3t-theme-1 > label:hover {
-	background: #fff;
 	opacity: 1;
 }
 .pcss3t-theme-1 > input:checked + label {
@@ -799,7 +788,7 @@ a:hover {
 	padding-bottom: 5px;
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
-	color: #2b82d9;
+	color: #940404;
 	opacity: 1;
 }
 .pcss3t-theme-1 > ul {
@@ -837,7 +826,6 @@ a:hover {
 	background: none;
 	border-radius: 0;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	color: #fff;
 	opacity: 1;
 }
 .pcss3t-theme-2 > label:hover {
@@ -845,13 +833,12 @@ a:hover {
 }
 .pcss3t-theme-2 > input:checked + label {
 	padding-bottom: 0;
-	background: #fff;
-	background: linear-gradient(to bottom, #e5e5e5 0%, #ffffff 100%);
-	background: -o-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
-	background: -ms-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
-	background: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
-	background: -webkit-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=0);
+	background: linear-gradient(to bottom, #e5e5e5 0%, var(--two) 100%);
+	background: -o-linear-gradient(top, #e5e5e5 0%, var(--two) 100%);
+	background: -ms-linear-gradient(top, #e5e5e5 0%, var(--two) 100%);
+	background: -moz-linear-gradient(top, #e5e5e5 0%, var(--two) 100%);
+	background: -webkit-linear-gradient(top, #e5e5e5 0%, var(--two) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='var(--two)', GradientType=0);
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
 	color: #822bd9;
 }
@@ -877,7 +864,7 @@ a:hover {
 	background: none;
 	border-right: 1px dotted rgba(255,255,255,0.5);
 	text-align: center;
-	color: #fff;
+	color: var(--two);
 	opacity: 0.6;
 }
 .pcss3t-theme-3 > label:hover {
@@ -914,7 +901,7 @@ a:hover {
 	box-shadow: inset 0 1px rgba(255,255,255,0.5), 0 1px rgba(0,0,0,0.5);
 	line-height: 39px;
 	text-shadow: 0 1px rgba(0,0,0,0.5);
-	color: #fff;
+	color: var(--two);
 }
 .pcss3t-theme-4 > label:hover {
 	background: #90cffc;
@@ -968,7 +955,7 @@ a:hover {
 	background: none;
 	border-radius: 5px;
 	text-align: center;
-	color: #fff;
+	color: var(--two);
 	opacity: 1;
 }
 .pcss3t-theme-5 > label:hover {
@@ -986,7 +973,7 @@ a:hover {
 	margin-top: 10px;
 	margin-left: -6px;
 	border-right: 6px solid transparent;
-	border-bottom: 6px solid #fff;
+	border-bottom: 6px solid var(--two);
 	border-left: 6px solid transparent;
 }
 .pcss3t-theme-5 > ul {

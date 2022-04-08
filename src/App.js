@@ -11,16 +11,18 @@ import ProfileCard from './components/ProfileCards/ProfileCard';
 import SmallCards from './components/SmallCards/SmallCards';
 import OurClient from './components/OurClient/OurClient';
 import AdvanceCards from './components/AdvanceCards/AdvanceCards';
+import OurServices from './components/OurServices/OurServices';
 
 function App() {
   return (
     <>
       {/* <img src='./company-logo.webp' alt="Logo" /> */}
-      <NavbarComponent />
-      <CarouselComponents />
+      <NavbarComponent/>
       <ProfileCard/>
-      <OurClient/>
+      {/* <OurClient/> */}
       <AdvanceCards/>
+      <CarouselComponents/>
+      <OurServices/>
     </>
   );
 }

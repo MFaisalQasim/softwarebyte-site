@@ -1,4 +1,5 @@
 import React from 'react'
+import LinkingCard from '../LinkingCard/LinkingCard';
 import SmallCards from '../SmallCards/SmallCards';
 import './AdvanceCards.css';
 export default function AdvanceCards() {
@@ -36,7 +37,7 @@ export default function AdvanceCards() {
 					
 					<li class="tab-content tab-content-last typography">
 						<div class="typography">
-						<SmallCards/>
+						<LinkingCard/>
 						</div>
 					</li>
 				</ul>
