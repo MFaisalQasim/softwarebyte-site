@@ -17,12 +17,12 @@ function App() {
   return (
     <>
       {/* <img src='./company-logo.webp' alt="Logo" /> */}
-      <NavbarComponent/>
-      <ProfileCard/>
+      <NavbarComponent />
+      <ProfileCard />
       {/* <OurClient/> */}
-      <AdvanceCards/>
-      <CarouselComponents/>
-      <OurServices/>
+      <CarouselComponents />
+      <OurServices />
+      <AdvanceCards />
     </>
   );
 }

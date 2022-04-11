@@ -9,7 +9,7 @@ body{
 }
 
 .profile-header .profile-header-cover {
-    background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+    /* background-image: url(https://bootdey.com/img/Content/bg1.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body{
     margin: 0 0 -20px;
     padding: 3px;
     border-radius: 4px;
-    background: #fff
+    /* background: #fff */
 }
 
 .profile-header-img img {
@@ -149,7 +149,7 @@ body{
 }
 
 .profile-header .profile-header-tab {
-    background: #fff;
+    /* background: #fff; */
     list-style-type: none;
     margin: -10px 0 0;
     padding: 0 0 0 140px;
@@ -184,7 +184,7 @@ body{
 }
 
 .profile-content {
-    padding: 25px;
+    /* padding: 25px; */
     border-radius: 4px
 }
 
@@ -228,7 +228,7 @@ body{
 
 .profile-highlight {
     padding: 12px 15px;
-    background: #FEFDE1;
+    /* background: #FEFDE1; */
     border-radius: 4px
 }
 
@@ -303,7 +303,7 @@ body{
 }
 
 body.flat-black {
-    background: #E7E7E7
+    /* background: #E7E7E7 */
 }
 
 .flat-black .navbar.navbar-inverse {
@@ -322,7 +322,7 @@ body.flat-black {
 
 .flat-black .page-with-light-sidebar .sidebar,
 .flat-black .page-with-light-sidebar .sidebar-bg {
-    background: #fff
+    /* background: #fff */
 }
 
 .flat-black .sidebar .nav>li>a {
@@ -486,7 +486,7 @@ select.form-control:not([size]):not([multiple]) {
 .timeline .timeline-body {
     margin-left: 23%;
     margin-right: 17%;
-    background: #fff;
+    /* background: #fff; */
     position: relative;
     padding: 20px 25px;
     border-radius: 6px
@@ -497,7 +497,7 @@ select.form-control:not([size]):not([multiple]) {
     display: block;
     position: absolute;
     border: 10px solid transparent;
-    border-right-color: #fff;
+    /* border-right-color: #fff; */
     left: -20px;
     top: 20px
 }
@@ -514,7 +514,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .timeline-header {
     padding-bottom: 10px;
-    border-bottom: 1px solid #e2e7eb;
+    /* border-bottom: 1px solid #e2e7eb; */
     line-height: 30px
 }
 
@@ -560,8 +560,8 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .timeline-footer {
-    background: #fff;
-    border-top: 1px solid #e2e7ec;
+    /* background: #fff; */
+    /* border-top: 1px solid #e2e7ec; */
     padding-top: 15px
 }
 
@@ -608,7 +608,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .timeline-comment-box {
-    background: #f2f3f4;
+    /* background: #f2f3f4; */
     margin-left: -25px;
     margin-right: -25px;
     padding: 20px 25px

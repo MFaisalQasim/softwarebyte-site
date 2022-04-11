@@ -16,7 +16,7 @@ import {
 export default function NavbarComponent() {
   return (
     <> 
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='mb-5'>
         <Container>
           <Navbar.Brand href="#home">
             <img src='../images/companylogo.png' width={'100px'} alt="Logo" />

@@ -4,6 +4,10 @@ import './ProfileCard.css';
 export default function ProfileCard() {
     return (
         <>
+            <header className='header-text text-center'>
+                <h4>WHAT CLIENTS SAY</h4>
+                <h1>Testimonial</h1>
+            </header>
             <div className='ProfileCard'>
                 <div class=" container ">
                     <div class="box">
@@ -37,7 +41,7 @@ export default function ProfileCard() {
 
             </div>
 
-           
+
         </>
     )
 }
