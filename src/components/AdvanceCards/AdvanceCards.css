@@ -12,15 +12,15 @@
 	font-size: 13px;
 	line-height: 1.55;
 } */
-p {
-	/* margin-bottom: 40px; */
-	/* text-align: center; */
-}
+/* p {
+	margin-bottom: 40px;
+	text-align: center;
+} */
 
-a {
-	/* text-decoration: underline; */
-	/* color: #1889e6; */
-}
+/* a {
+	text-decoration: underline;
+	color: #1889e6;
+} */
 
 a:hover {
 	text-decoration: none;
@@ -93,7 +93,7 @@ a:hover {
 	list-style: none;
 	position: relative;
 	display: block;
-	overflow: hidden;
+	/* overflow: hidden; */
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -134,10 +134,7 @@ a:hover {
 	-webkit-transform: rotate(0deg);
 }
 
-.pcss3t>ul, .pcss3t>ul>li
-.tab-content-last .typography{
-	height: 1600px;
-}
+
 
 /*----------------------------------------------------------------------------*/
 /*                                 EXTENSIONS                                 */
@@ -260,9 +257,9 @@ a:hover {
 /**/
 /* typography */
 /**/
-.pcss3t .typography {
+/* .pcss3t .typography {
 	color: #666;
-}
+} */
 
 .pcss3t .typography h1,
 .pcss3t .typography h2,
@@ -1620,7 +1617,7 @@ a:hover {
 
 .pcss3t-theme-1>ul {
 	border-radius: 5px;
-	box-shadow: 0 3px rgba(0, 0, 0, 0.2);
+	/* box-shadow: 0 3px rgba(0, 0, 0, 0.2); */
 }
 
 .pcss3t-theme-1>.tab-content-first:checked~ul {
@@ -1845,6 +1842,10 @@ a:hover {
 
 /* .page label  */
 
-.tab-content-last{
+/* .tab-content-last{
 	height: 800px!important;
-} 
+}  */
+
+.carousel-row{
+
+}

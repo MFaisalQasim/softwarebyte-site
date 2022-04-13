@@ -23,14 +23,12 @@ export default function AdvanceCards() {
 
 					<input type="radio" name="pcss3t" id="tab5" class="tab-content-last" />
 					<label for="tab5"><i class="icon-globe"></i>Interview</label>
-					<ul>
+					<ul className='cards-height'>
 						<li class="tab-content tab-content-first typography">
 							<SmallCards />
 						</li>
 						<li class="tab-content tab-content-2 typography">
-							<h1>Leonardo da Vinci</h1>
-							<p>Italian Renaissance polymath: painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer. His genius, perhaps more than that of any other figure, epitomized the Renaissance humanist ideal. Leonardo has often been described as the archetype of the Renaissance Man, a man of "unquenchable curiosity" and "feverishly inventive imagination". He is widely considered to be one of the greatest painters of all time and perhaps the most diversely talented person ever to have lived. According to art historian Helen Gardner, the scope and depth of his interests were without precedent and "his mind and personality seem to us superhuman, the man himself mysterious and remote". Marco Rosci states that while there is much speculation about Leonardo, his vision of the world is essentially logical rather than mysterious, and that the empirical methods he employed were unusual for his time.</p>
-							<p class="text-right"><em>Find out more about Leonardo da Vinci from <a href="http://en.wikipedia.org/wiki/Leonardo_da_Vinci" target="_blank">Wikipedia</a>.</em></p>
+							<LinkingCard />
 						</li>
 						<li class="tab-content tab-content-3 typography">
 							<SmallCards />

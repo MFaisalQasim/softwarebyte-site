@@ -5,7 +5,8 @@ body {
 }
 
 * {
-    --one: #484444;
+    /* --one: #484444; */
+    --one: #212428;
     --two: #fd0003;
     --three: #000000;
     --four: #940404;
@@ -16,6 +17,10 @@ body {
     font-size: var(--font-size-b1);
     font-weight: var(--p-regular);
     line-height: var(--line-height-b1);
+}
+
+.Company-logo{
+    height: 60px;
 }
 
 .card-img {

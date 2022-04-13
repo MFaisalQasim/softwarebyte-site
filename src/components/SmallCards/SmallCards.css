@@ -136,8 +136,8 @@
   max-width: 1024px;
   width: 100%;
   /* padding: 0 4%; */
-  /* background-color: #383030; */
-  background-color: var(--one);
+  background-color: #383030;
+  /* background-color: var(--one); */
   padding-top: 0px;
   margin: 0 auto;
   display: flex;
