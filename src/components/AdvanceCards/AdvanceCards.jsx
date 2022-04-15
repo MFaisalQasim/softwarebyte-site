@@ -31,7 +31,7 @@ export default function AdvanceCards() {
 							<LinkingCard />
 						</li>
 						<li class="tab-content tab-content-3 typography">
-							<SmallCards />
+							{/* <SmallCards /> */}
 						</li>
 						<li class="tab-content tab-content-last typography">
 							<div class="typography" >

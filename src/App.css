@@ -17,17 +17,22 @@ body {
     font-size: var(--font-size-b1);
     font-weight: var(--p-regular);
     line-height: var(--line-height-b1);
+    --background-color-1: linear-gradient(145deg,#1e2024,#23272b);
 }
 
 .Company-logo{
     height: 60px;
 }
 
-.card-img {
+/* .card-img {
+    padding: 20px;
+    border-radius: 20px;
+} */
+
+.card-img-div {
     padding: 20px;
     border-radius: 20px;
 }
-
 .bg-webcolor {
     /* background-color: #717171 !important; */
     background-color: var(--one);
@@ -101,4 +106,18 @@ body {
 .page label {
     width: 200px;
     height: 65px;
+}
+.card-img-div img:hover {
+    height: 150%;
+    transition: all 0.3s ease;
+}
+.card-div{
+    background: var(--background-color-1);
+    border-radius: 20px;
+    box-shadow: var(--shadow-1);
+    display: inline-block;
+    height: 100%;
+    padding: 30px;
+    position: relative;
+    text-align: left;
 }

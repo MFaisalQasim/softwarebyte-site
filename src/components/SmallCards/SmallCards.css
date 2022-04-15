@@ -136,13 +136,13 @@
   max-width: 1024px;
   width: 100%;
   /* padding: 0 4%; */
-  background-color: #383030;
-  /* background-color: var(--one); */
+  /* background-color: #383030; */
+  background-color: var(--one);
   padding-top: 0px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
  
 }
 @media screen and (max-width: 767px) {
@@ -174,10 +174,10 @@
 }
 
 .card1 {
-  width: 100%;
-  max-width: 300px;
+  width: 40vw;
+  /* max-width: 300px; */
   min-width: 200px;
-  height: 250px;
+  height: 350px;
   /* background-color: #717171; */
   background-color: var(--one);
   margin: 10px;
@@ -244,9 +244,9 @@
   max-height: 0;
   transition: all 0.3s ease;
 }
-.card1:hover {
+/* .card1:hover {
   height: 270px;
-}
+} */
 .card1:hover .info {
   height: 90%;
 }
