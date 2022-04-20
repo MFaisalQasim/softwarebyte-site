@@ -10,7 +10,6 @@ export default function OurServices() {
             </header>
             <div class="container mt-2">
                 <div class="row">
-
                     <div class="col-6">
                         <div class="card-div card-block">
                             {/* <h4 class="card-title text-right"><i class="material-icons">settings</i></h4> */}
